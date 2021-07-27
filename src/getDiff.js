@@ -13,10 +13,10 @@ const getDiff = (object1, object2) => {
     if (!_.has(object2, key)) {
       return { key, type: 'removed', value: object1[key] };
     }
-    if (_.isObject(object1) && _.isObject(object2)) {
+    if (_.isObject(object1[key]) && _.isObject(object2[key])) {
       return { key, type: 'nested', children: getDiff(object1[key], object2[key]) };
     }
-    if (!_.isEqual(object1, object2)) {
+    if (!_.isEqual(object1[key], object2[key])) {
       return {
         key,
         type: 'changed',
