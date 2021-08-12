@@ -39,3 +39,16 @@ Options:
 
 ## Пример
 ---
+JSON and YML to stylish:
+
+[![asciicast](https://asciinema.org/a/DCEsyGpTNUM5xO4pUZGL8VSgu.svg)](https://asciinema.org/a/DCEsyGpTNUM5xO4pUZGL8VSgu)
+
+
+JSON and YML to json:
+
+[![asciicast](https://asciinema.org/a/430200.svg)](https://asciinema.org/a/430200)
+
+
+JSON and YML to plain:
+
+[![asciicast](https://asciinema.org/a/430202.svg)](https://asciinema.org/a/430202)
