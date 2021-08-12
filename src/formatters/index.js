@@ -5,7 +5,7 @@ import formatterStylish from './stylish.js';
 const formats = {
   stylish: formatterStylish,
   plain: formatterPlain,
-  json: (diff) => JSON.stringify(diff),
+  json: (diff) => JSON.stringify(diff, null, '  '),
 };
 
 const formatter = (diff, format) => {
