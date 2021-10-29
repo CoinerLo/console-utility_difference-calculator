@@ -1,34 +1,35 @@
+## Difference calculator
+
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/CoinerLo/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/CoinerLo/frontend-project-lvl2/actions)
-[![Node.js CI](https://github.com/CoinerLo/frontend-project-lvl2/actions/workflows/node.js.yml/badge.svg)](https://github.com/CoinerLo/frontend-project-lvl2/actions/workflows/node.js.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/934e49833dad3d2c1bf7/maintainability)](https://codeclimate.com/github/CoinerLo/frontend-project-lvl2/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/934e49833dad3d2c1bf7/test_coverage)](https://codeclimate.com/github/CoinerLo/frontend-project-lvl2/test_coverage)
+[![Actions Status](https://github.com/CoinerLo/console-utility_difference-calculator/workflows/hexlet-check/badge.svg)](https://github.com/CoinerLo/console-utility_difference-calculator/actions)
+[![Node.js CI](https://github.com/CoinerLo/console-utility_difference-calculator/actions/workflows/node.js.yml/badge.svg)](https://github.com/CoinerLo/console-utility_difference-calculator/actions/workflows/node.js.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/934e49833dad3d2c1bf7/maintainability)](https://codeclimate.com/github/CoinerLo/console-utility_difference-calculator/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/934e49833dad3d2c1bf7/test_coverage)](https://codeclimate.com/github/CoinerLo/console-utility_difference-calculator/test_coverage)
 
 
-## Вычислитель отличий
 
-Вычислитель отличий – программа, определяющая разницу между двумя структурами данных. Это популярная задача, для решения которой существует множество онлайн сервисов, [например как тут](http://www.jsondiff.com/). Подобный механизм используется при выводе тестов или при автоматическом отслеживании изменении в конфигурационных файлах.
+Difference Calculator - a program that determines the difference between two data structures. This is a popular task, for which there are many online services, for example, [as here](http://www.jsondiff.com/). A similar mechanism is used when outputting tests or when automatically tracking changes in configuration files.
 
-Возможности утилиты:
+Utility features:
 
-* поддержка разных входных форматов: json, yaml;
-* генерация отчета в различных форматах: json, stylish и plain text;
+* support for different input formats: json, yaml;
+* generating reports in various formats: json, stylish и plain text;
 
-## Установка
+## Installation
 ---
-Для установки выполнить:
+To install, run:
 
-    git clone https://github.com/CoinerLo/frontend-project-lvl2.git
-    cd frontend-project-lvl2
+    git clone https://github.com/CoinerLo/console-utility_difference-calculator.git
+    cd console-utility_difference-calculator
     make install
 
-Справочная информация:
+Information:
 
     gendiff -h
 
-## Описание
+## Description
 ---
-Старт программы
+Get started
 
     gendiff [options] <filepath1> <filepath2>
 
@@ -37,7 +38,7 @@ Options:
 * -f, --format [type] [output format (default: "stylish")]
 * -h, --help [display help for command]
 
-## Пример
+## Example
 ---
 JSON and YML to stylish:
 

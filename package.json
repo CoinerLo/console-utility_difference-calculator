@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/CoinerLo/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/CoinerLo/frontend-project-lvl2/actions)",
+  "description": "Difference calculator",
   "bin": {
     "gendiff": "bin/gendiff.js"
   },
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoinerLo/frontend-project-lvl2.git"
+    "url": "git+https://github.com/CoinerLo/console-utility_difference-calculator.git"
   },
   "author": "Lomakin Igor'",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CoinerLo/frontend-project-lvl2/issues"
+    "url": "https://github.com/CoinerLo/console-utility_difference-calculator/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/CoinerLo/frontend-project-lvl2#readme",
+  "homepage": "https://github.com/CoinerLo/console-utility_difference-calculator#readme",
   "devDependencies": {
     "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.2.1",
